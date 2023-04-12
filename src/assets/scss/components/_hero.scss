@@ -1,0 +1,56 @@
+.hero {
+  padding: 4.6rem 4rem;
+  font-size: 4rem;
+  text-align: center;
+  background-color: $primary_color;
+  .heading {
+    img {
+      width: 7.2rem;
+      vertical-align: middle;
+    }
+    p {
+      padding: 0rem 4rem;
+      font-size: 2rem;
+    }
+    a {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: $primary_color;
+      padding: 0.4rem 1rem;
+      background-color: $text-color;
+      text-decoration: none;
+      border-radius: 6px;
+      &:hover {
+        color: $text-color;
+        border: 2px solid $text-color;
+        background-color: $primary_color;
+      }
+    }
+  }
+  div {
+    p {
+      &:first-child {
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin-top: -1.6rem;
+      }
+    }
+  }
+  .companiesLogos {
+    padding-top: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    span {
+      margin-right: 1rem;
+    }
+    img {
+      width: 6rem;
+      vertical-align: middle;
+      margin-right: 1.2rem;
+    }
+    .smallerImg {
+      width: 2.5rem;
+    }
+  }
+}

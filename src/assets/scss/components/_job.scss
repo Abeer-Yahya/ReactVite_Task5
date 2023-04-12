@@ -1,0 +1,59 @@
+.jobs {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: $text_color;
+    gap: 20px;
+    padding: 4rem;
+    color: $text_color;
+    .jobCard {
+      position: relative;
+      text-align: center;
+      background-color: #ffff;
+      border-radius: 10px;
+      padding: 2rem 1rem;
+      p {
+        margin-bottom: 0.4rem;
+      }
+      a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 0.4rem 1rem;
+        background-color: $primary_color;
+        color: $text_color;
+        border-radius: 6px;
+        margin-top: 0.8rem;
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+      .type {
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: $primary_color;
+        padding: 0.2rem 0.4rem;
+        background-color: $gray_color;
+        border-radius: 6px;
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+      }
+      .date {
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: $primary_color;
+        padding: 0.2rem 0.4rem;
+        background-color: $gray_color;
+        border-radius: 6px;
+        position: absolute;
+        top: 1rem;
+        left: 16.5rem;
+      }
+    }
+  }
+  .pagination {
+    margin-bottom: 1.4rem;
+    display: flex;
+    justify-content: center;
+    background-color: $primary_color;
+  }
+}

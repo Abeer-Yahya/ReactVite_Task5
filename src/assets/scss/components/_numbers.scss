@@ -1,0 +1,38 @@
+.numbers {
+  text-align: center;
+  background-color: $primary_color;
+  padding: 0rem 4rem;
+  .lightBG {
+    padding: 4rem 2.2rem;
+    background-color: $gray_color;
+    border-radius: 10% 20% 0 0;
+    h2 {
+      font-size: 2.8rem;
+    }
+    .results {
+      padding: 1.4rem 6rem;
+      display: flex;
+      justify-content: space-between;
+      div {
+        p {
+          &:first-child {
+            font-weight: 700;
+            font-size: 4.6rem;
+          }
+          &:nth-child(2) {
+            width: 11rem;
+          }
+        }
+      }
+    }
+    .lightText {
+      color: gray;
+      padding: 0rem 19rem;
+    }
+    .lastP {
+      padding: 2rem 17rem;
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+  }
+}

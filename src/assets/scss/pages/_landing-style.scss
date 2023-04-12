@@ -1,0 +1,16 @@
+@import "../helper/variables";
+@import "../components/header";
+@import "../components/hero";
+@import "../components/numbers";
+@import "../components//career";
+@import "../components/contact";
+@import "../components/footer";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font;
+}

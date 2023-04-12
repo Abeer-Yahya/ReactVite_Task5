@@ -1,0 +1,35 @@
+footer {
+  background-color: $gray_color;
+  padding: 2.2rem 4rem;
+  .links {
+    display: flex;
+    justify-content: space-between;
+    h6 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style: none;
+      li {
+        margin-bottom: 0.5rem;
+      }
+    }
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: $primary_color;
+      margin-top: 2rem;
+    }
+  }
+  .subFooter {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    p {
+      color: gray;
+    }
+    .icon {
+      margin-right: 1rem;
+    }
+  }
+}
