@@ -432,7 +432,7 @@ body {
   background-color: #f2f1ee;
 }
 
-.feedbackForm {
+.feedback .feedbackForm {
   margin: 2.4rem auto;
   background-color: white;
   width: 28rem;
@@ -440,17 +440,17 @@ body {
   border-radius: 16px;
   text-align: center;
 }
-.feedbackForm h5 {
+.feedback .feedbackForm h5 {
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
-.feedbackForm form {
+.feedback .feedbackForm form {
   background-color: white;
   width: 20rem;
   margin: 0 auto;
 }
-.feedbackForm form input,
-.feedbackForm form textarea {
+.feedback .feedbackForm form input,
+.feedback .feedbackForm form textarea {
   display: block;
   width: 20rem;
   height: 3rem;
@@ -459,7 +459,7 @@ body {
   border: 2px solid #f2f1ee;
   border-radius: 10px;
 }
-.feedbackForm form button {
+.feedback .feedbackForm form button {
   padding: 0.4rem 1rem;
   background-color: #ff8f5f;
   color: #131313;
@@ -468,6 +468,9 @@ body {
   margin-top: 0.8rem;
   font-size: 0.8rem;
   font-weight: 700;
+}
+.feedback .feedbackCard {
+  color: aliceblue;
 }
 
 * {

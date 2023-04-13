@@ -21,16 +21,8 @@ function Feedback() {
     setName(values.name);
     setFeedback(values.feedback);
     setFeedbacks([...feedbacks, { name, feedback }]);
-    let strArr = JSON.stringify(feedbacks);
-    localStorage.setItem("FeedbackArr", strArr);
   };
-  function getFromLocal() {
-    let jsonArr = localStorage.getItem("FeedbackArr");
-    let arr = JSON.parse(jsonArr);
-  }
-  if (localStorage.getItem("FeedbackArr") != null) {
-    getFromLocal();
-  }
+
   const formik = useFormik({
     initialValues: {
       name: "",
@@ -70,20 +62,20 @@ function Feedback() {
             Submit
           </button>
         </form>
-        <div>
-          {feedbacks.length > 0 && (
-            <div>
-              <ul>
-                {feedbacks.map((item, index) => (
-                  <li key={index}>
-                    <p>{item.name}</p>
-                    <p>{item.feedback}</p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-        </div>
+      </div>
+      <div className="feedbackCard">
+        {feedbacks.length > 0 && (
+          <div>
+            <ul>
+              {feedbacks.map((item, index) => (
+                <li key={index}>
+                  <p>{item.name}</p>
+                  <p>{item.feedback}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
     </section>
   );

@@ -1,37 +1,42 @@
-.feedbackForm {
-  margin: 2.4rem auto;
-  background-color: #ffff;
-  width: 28rem;
-  padding: 2rem;
-  border-radius: 16px;
-  text-align: center;
-  h5 {
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-  }
-  form {
+.feedback {
+  .feedbackForm {
+    margin: 2.4rem auto;
     background-color: #ffff;
-    width: 20rem;
-    margin: 0 auto;
-    input,
-    textarea {
-      display: block;
-      width: 20rem;
-      height: 3rem;
+    width: 28rem;
+    padding: 2rem;
+    border-radius: 16px;
+    text-align: center;
+    h5 {
+      font-size: 1.4rem;
       margin-bottom: 1rem;
-      padding-left: 0.4rem;
-      border: 2px solid $gray_color;
-      border-radius: 10px;
     }
-    button {
-      padding: 0.4rem 1rem;
-      background-color: $primary_color;
-      color: $text_color;
-      border: none;
-      border-radius: 6px;
-      margin-top: 0.8rem;
-      font-size: 0.8rem;
-      font-weight: 700;
+    form {
+      background-color: #ffff;
+      width: 20rem;
+      margin: 0 auto;
+      input,
+      textarea {
+        display: block;
+        width: 20rem;
+        height: 3rem;
+        margin-bottom: 1rem;
+        padding-left: 0.4rem;
+        border: 2px solid $gray_color;
+        border-radius: 10px;
+      }
+      button {
+        padding: 0.4rem 1rem;
+        background-color: $primary_color;
+        color: $text_color;
+        border: none;
+        border-radius: 6px;
+        margin-top: 0.8rem;
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
     }
+  }
+  .feedbackCard {
+    color: aliceblue;
   }
 }
