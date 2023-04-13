@@ -430,4 +430,53 @@ body {
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f2f1ee;
+}
+
+.feedbackForm {
+  margin: 2.4rem auto;
+  background-color: white;
+  width: 28rem;
+  padding: 2rem;
+  border-radius: 16px;
+  text-align: center;
+}
+.feedbackForm h5 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.feedbackForm form {
+  background-color: white;
+  width: 20rem;
+  margin: 0 auto;
+}
+.feedbackForm form input,
+.feedbackForm form textarea {
+  display: block;
+  width: 20rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  padding-left: 0.4rem;
+  border: 2px solid #f2f1ee;
+  border-radius: 10px;
+}
+.feedbackForm form button {
+  padding: 0.4rem 1rem;
+  background-color: #ff8f5f;
+  color: #131313;
+  border: none;
+  border-radius: 6px;
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #131313;
 }/*# sourceMappingURL=root.css.map */
