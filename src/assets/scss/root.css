@@ -522,7 +522,7 @@ table th {
   text-align: center;
   color: white;
 }
-.container img {
+.container .bannerImg {
   width: 100%;
   border-radius: 1rem;
 }

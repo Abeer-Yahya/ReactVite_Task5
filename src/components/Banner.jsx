@@ -3,7 +3,7 @@ function Banner() {
   return (
     <div>
       <div class="container">
-        <img src={banner} alt="Students" />
+        <img src={banner} alt="Students" className="bannerImg" />
         <div class="centered">
           <h1>Outcomes Report 2022</h1>
           <p className="headerP">
