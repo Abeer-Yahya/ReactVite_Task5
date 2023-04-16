@@ -1,0 +1,20 @@
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 1rem auto;
+  background-color: #fff;
+  font-size: 1.2rem;
+  th,
+  td {
+    text-align: left;
+    padding: 1.8rem 2rem;
+  }
+  td {
+    border-bottom: 4px solid $gray_color;
+    font-weight: 300;
+  }
+  th {
+    background-color: $gray_color;
+    border-bottom: 2px solid $gray_color;
+  }
+}

@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from "react";
 import { useFormik } from "formik";
 import * as yup from "yup";
+import Table from "../components/Table";
 
 const schema = yup.object().shape({
   name: yup

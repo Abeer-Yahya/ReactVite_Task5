@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
 nav {
   background-color: #ff8f5f;
   padding: 0.8rem 4rem;
@@ -494,4 +494,65 @@ body {
 body {
   font-family: "Poppins", sans-serif;
   background-color: #131313;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 1rem auto;
+  background-color: #fff;
+  font-size: 1.2rem;
+}
+table th,
+table td {
+  text-align: left;
+  padding: 1.8rem 2rem;
+}
+table td {
+  border-bottom: 4px solid #f2f1ee;
+  font-weight: 300;
+}
+table th {
+  background-color: #f2f1ee;
+  border-bottom: 2px solid #f2f1ee;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.container img {
+  width: 100%;
+  border-radius: 1rem;
+}
+.container .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .centered h1 {
+  font-size: 3.4rem;
+}
+.container .centered .headerP {
+  font-size: 1.5rem;
+  padding: 0rem 2.4rem;
+}
+.container .centered .threeCols {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f1ee;
 }/*# sourceMappingURL=root.css.map */

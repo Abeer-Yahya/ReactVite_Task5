@@ -36,6 +36,13 @@ export default function Header() {
         >
           Feedback
         </NavLink>
+        <NavLink
+          to={"/report"}
+          className="navLink"
+          state={{ marginTop: "0.4rem" }}
+        >
+          Outcomes Report
+        </NavLink>
       </div>
       <div>
         <a href="#CTA" className="primaryButton">

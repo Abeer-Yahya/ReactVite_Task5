@@ -7,6 +7,7 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Jobs from "./pages/Jobs";
 import Feedback from "./pages/Feedback";
+import OutcomesReport from "./pages/OutcomesReport";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/login" element={<Login />}></Route>
         <Route exact path="/jobs" element={<Jobs />}></Route>
         <Route exact path="/feedback" element={<Feedback />}></Route>
+        <Route exact path="/report" element={<OutcomesReport />}></Route>
       </Routes>
       <Footer />
     </div>
