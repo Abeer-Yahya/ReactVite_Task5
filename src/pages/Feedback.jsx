@@ -65,7 +65,7 @@ function Feedback() {
       </div>
       <div className="feedbackCard">
         {feedbacks.length > 0 && (
-          <div>
+          <div className="fcards">
             <ul>
               {feedbacks.map((item, index) => (
                 <li key={index}>

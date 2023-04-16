@@ -469,8 +469,20 @@ body {
   font-size: 0.8rem;
   font-weight: 700;
 }
-.feedback .feedbackCard {
-  color: aliceblue;
+.feedback .feedbackCard .fcards {
+  display: flex;
+  justify-content: center;
+}
+.feedback .feedbackCard .fcards ul {
+  list-style: none;
+}
+.feedback .feedbackCard .fcards ul li {
+  background-color: white;
+  color: #ff8f5f;
+  width: 15rem;
+  padding: 1rem;
+  margin: 1rem 2rem;
+  border-radius: 1rem;
 }
 
 * {
